@@ -1,5 +1,14 @@
 <?php
 
+/**
+ *
+ * controller for switch expanded/collapsed node's state
+ * accepts id param
+ *
+ * returns 200 if ok
+ *
+ */
+
 require_once __dir__ . '/../app.php';
 
 $id = $_REQUEST['id'] ?? null;

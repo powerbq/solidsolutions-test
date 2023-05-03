@@ -1,5 +1,14 @@
 <?php
 
+/**
+ *
+ * controller for delete node
+ * accepts id param
+ *
+ * returns 200 if ok
+ *
+ */
+
 require_once __dir__ . '/../app.php';
 
 $id = $_REQUEST['id'] ?? null;

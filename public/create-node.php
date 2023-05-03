@@ -1,5 +1,14 @@
 <?php
 
+/**
+ *
+ * controller for create root/node
+ * accepts id (not necessary) and name params
+ *
+ * returns 200 if ok
+ *
+ */
+
 require_once __dir__ . '/../app.php';
 
 $id = $_REQUEST['id'] ?? null;

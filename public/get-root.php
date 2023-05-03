@@ -1,5 +1,13 @@
 <?php
 
+/**
+ *
+ * controller for get root
+ * takes no params
+ * returns json with nested structure
+ *
+ */
+
 require_once __dir__ . '/../app.php';
 
 $nodes = $db->execute('SELECT id, name, parent_id, expanded FROM nodes');
